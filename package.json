@@ -1,0 +1,27 @@
+{
+  "name": "docklet",
+  "version": "0.1.0",
+  "description": "A tactile, right-edge magnetic quick-launcher & window switcher built for multi-AI workflows on Windows.",
+  "main": "main.js",
+  "license": "MIT",
+  "author": "Ronanism",
+  "keywords": [
+    "windows",
+    "electron",
+    "dock",
+    "launcher",
+    "window-switcher",
+    "ai-workflow",
+    "productivity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ronanism/docklet.git"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^35.0.0"
+  }
+}

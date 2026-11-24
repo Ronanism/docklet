@@ -1,0 +1,9 @@
+node_modules/
+config.json
+icons/
+self-test.png
+screen-verify.png
+*.log
+*.ps1
+.DS_Store
+Thumbs.db

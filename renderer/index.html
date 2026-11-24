@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docklet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stage" id="stage">
+    <!-- 左侧滑出式快速配置抽屉（默认收起） -->
+    <section class="config-drawer interactive" id="configDrawer" aria-hidden="true">
+      <div class="drawer-head">
+        <strong>色卡轨配置</strong>
+        <button class="mini-btn" id="closeDrawerBtn">收起</button>
+      </div>
+
+      <div class="drawer-toolbar">
+        <button class="mini-btn accent" id="autoScanBtn">自动扫描路径</button>
+        <button class="mini-btn" id="addItemBtn">+ 新增入口</button>
+      </div>
+
+      <div class="drawer-list" id="drawerList"></div>
+
+      <div class="drawer-footer">
+        <div class="api-badge">API: http://127.0.0.1:4791</div>
+        <div class="drop-hint">支持直接拖入 .exe / .lnk 快捷方式添加</div>
+      </div>
+    </section>
+
+    <!-- 主角：右侧垂直磁吸撞色色卡轨 -->
+    <aside class="edge-rail interactive" id="edgeRail" aria-label="Docklet AI 右侧色卡轨">
+      <div class="rail-top-bar">
+        <button class="rail-chip" id="peekBtn" title="快捷键 Alt+Space">贴边：关</button>
+        <button class="rail-chip yellow" id="openDrawerBtn" title="管理快捷入口">配置</button>
+      </div>
+
+      <div class="tab-list" id="tabList"></div>
+    </aside>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>

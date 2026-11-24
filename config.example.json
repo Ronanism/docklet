@@ -1,0 +1,62 @@
+{
+  "port": 4791,
+  "hotkey": "Alt+Space",
+  "peekMode": true,
+  "items": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "target": "",
+      "iconPath": "",
+      "processHints": ["chatgpt", "codex"],
+      "color": "auto",
+      "iconKey": "chatgpt",
+      "aiStatus": null,
+      "statusText": null
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "target": "",
+      "iconPath": "",
+      "processHints": ["claude"],
+      "color": "auto",
+      "iconKey": "claude",
+      "aiStatus": null,
+      "statusText": null
+    },
+    {
+      "id": "vscode",
+      "name": "VS Code",
+      "target": "",
+      "iconPath": "",
+      "processHints": ["code"],
+      "color": "auto",
+      "iconKey": "code",
+      "aiStatus": null,
+      "statusText": null
+    },
+    {
+      "id": "terminal",
+      "name": "Terminal",
+      "target": "wt.exe",
+      "iconPath": "",
+      "processHints": ["windowsterminal", "wt"],
+      "color": "auto",
+      "iconKey": "terminal",
+      "aiStatus": null,
+      "statusText": null
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "target": "https://github.com",
+      "iconPath": "",
+      "processHints": ["github"],
+      "color": "#181717",
+      "iconKey": "web",
+      "aiStatus": null,
+      "statusText": null
+    }
+  ]
+}
